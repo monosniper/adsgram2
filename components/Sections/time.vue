@@ -5,7 +5,7 @@
                 время пришло
             </h2>
             <p class="time__text" data-aos="fade-right" data-aos-delay="200">
-                начни зарабатывать с AdsGram сегодня
+                получи премиум трафик с AdsGram сегодня
             </p>
             <button class="time__button" data-aos="fade-left" data-aos-delay="300">
                 Перейти в кабинет

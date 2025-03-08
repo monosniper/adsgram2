@@ -24,17 +24,13 @@
                             <img src="/assets/icons/time.svg" alt="Время" />
                             <span>время: 48 часов</span>
                         </li>
-                        <li class="native-post__item" data-aos="flip-up" data-aos-delay="550">
-                            <img src="/assets/icons/frequency.svg" alt="Частота" />
-                            <span>частота выпуска: от 1 до 3-х раз в день</span>
-                        </li>
                         <li class="native-post__item" data-aos="flip-up" data-aos-delay="600">
                             <img src="/assets/icons/audience.svg" alt="Аудитория" />
                             <span>аудитория: все, включая Premium</span>
                         </li>
                         <li class="native-post__item" data-aos="flip-up" data-aos-delay="650">
-                            <img src="/assets/icons/payment.svg" alt="Оплата" />
-                            <span>оплата: за CPM (просмотры)</span>
+                            <img src="/assets/icons/brilliand.svg" alt="Оплата" />
+                            <span>бонусы: эмоджи🫰, автокоррекция текста</span>
                         </li>
                     </ul>
                 </div>
@@ -105,7 +101,7 @@
     &__list {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 33px;
         background: #FFF;
         border-radius: 16px;
         padding: 24px;

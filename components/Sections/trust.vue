@@ -24,7 +24,7 @@
                 <div class="trust__card trust__card--moderation" data-aos="zoom-out-up" data-aos-delay="600">
                     <p class="trust__text">
                         Тщательно модерируем <br />
-                        рекламодателей
+                        паблишеров
                     </p>
                 </div>
                 <div class="trust__card trust__card--usdt" data-aos="flip-down" data-aos-delay="700">

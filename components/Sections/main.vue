@@ -3,8 +3,8 @@
     <div class="container">
       <div class="hero__content" data-aos="fade-right">
         <h1 class="hero__title" data-aos="fade-right">
-          Монетизируй канал <br />
-          или бот без комиссии
+          Реклама в каналах <br />
+          и ботах с AdsGram
         </h1>
         <p class="hero__text" data-aos="fade-right" data-aos-delay="100">
           удобно, выгодно, быстро, <br />

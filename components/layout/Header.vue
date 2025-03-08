@@ -14,7 +14,7 @@
           </ul>
         </nav>
         <button class="header__moderate" data-aos="zoom-in" data-aos-delay="300">
-          Монетизировать
+            Привлечь трафик
         </button>
       </div>
     </header>
@@ -64,6 +64,8 @@
     }
 
     &__moderate {
+        font-family: 'Inter';
+        text-wrap: nowrap;
         margin-left: auto;
         width: 171px;
         height: 44px;
@@ -79,6 +81,7 @@
         cursor: pointer;
         transition: background-color 0.3s ease, color 0.3s ease;
         letter-spacing: 0.5px;
+        padding: 10px 18px;
 
         &:hover {
             background-color: #fff;
