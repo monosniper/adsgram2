@@ -6,9 +6,9 @@ import { SectionsFormat } from '#components';
 <template>
     <main>
         <SectionsMain />
-        <SectionsTrust />
-        <SectionsUsdt />
-        <SectionsFormat />
+        <SectionsTrust id="trust" />
+        <SectionsUsdt id="usdt" />
+        <SectionsFormat id="format" />
         <SectionsTime />
     </main>
 </template>
