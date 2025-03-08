@@ -1,0 +1,35 @@
+@use "vars" as *;
+@use "fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: $bg-color-1;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 112px;
+}
+
+.button {
+  background-color: $btn-color-1;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: $btn-color-2;
+}
