@@ -7,11 +7,11 @@
           <img class="header__logo" src="@/assets/icons/logo.svg" alt="AdsGram Logo" />
         </a>
         <nav class="header__nav" data-aos="fade-down" data-aos-delay="200">
-          <ul>
-            <li><a href="/#">опыт</a></li>
-            <li><a href="/#">как работает</a></li>
-            <li><a href="/#">формат</a></li>
-          </ul>
+            <ul>
+                <li><a href="#trust">опыт</a></li>
+                <li><a href="#usdt">как работает</a></li>
+                <li><a href="#format">формат</a></li>
+            </ul>
         </nav>
         <button class="header__moderate" data-aos="zoom-in" data-aos-delay="300">
           Монетизировать
