@@ -105,7 +105,7 @@
     &__list {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 33px;
         background: #FFF;
         border-radius: 16px;
         padding: 24px;
