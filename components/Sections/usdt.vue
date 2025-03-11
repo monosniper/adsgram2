@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="steps__image" data-aos="fade-left" data-aos-delay="900">
-          <img src="/assets/images/balance.png" alt="{{ $t('steps.image_alt') }}" />
+          <img src="/assets/images/balance2.png" alt="{{ $t('steps.image_alt') }}" />
         </div>
       </div>
     </div>
@@ -173,6 +173,8 @@
   }
 
   &__image img {
+    margin-top: 40px;
+    margin-bottom: 40px;
     position: relative;
     width: 100%;
     max-width: 500px;
