@@ -3,7 +3,9 @@
 <template>
     <footer class="footer">
         <div class="footer__container">
-            <img class="footer__logo" src="@/assets/icons/logo.svg" alt="AdsGram Logo" />
+            <a href="https://adsgram.ai">
+                <img class="footer__logo" src="@/assets/icons/logo.svg" alt="AdsGram Logo" />
+            </a>
             <span class="footer__copyright">
                 {{ $t("footer.copyright") }}
             </span>
