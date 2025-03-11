@@ -1,0 +1,69 @@
+{
+  "menu": {
+    "experience": "经验",
+    "how_it_works": "它是如何工作的",
+    "format": "格式"
+  },
+  "button": {
+    "monetize": "货币化"
+  },
+  "time": {
+    "title": "时机已到",
+    "text": "今天就开始使用 AdsGram 赚钱",
+    "button": "进入仪表板"
+  },
+  "native_post": {
+    "tag": "格式",
+    "title": "频道中的原生帖子（机器人）",
+    "subtitle": "广告看起来像频道中的原生帖子",
+    "format": "格式: 文本 + img/gif",
+    "time": "时间: 48 小时",
+    "frequency": "发布频率: 每天 1 到 3 次",
+    "audience": "受众: 所有用户，包括 Premium",
+    "payment": "支付方式: 按 CPM（浏览量）计费"
+  },
+  "footer": {
+    "copyright": "© 2025 AdsGram. 版权所有."
+  },
+  "steps": {
+    "tag": "连接",
+    "title": "3 步获取 USDT",
+    "subtitle": "我们尽可能让连接和设置变得舒适快捷，我们的支持团队随时准备回答任何问题。",
+    "step1": {
+      "title": "添加机器人并设置广告频率",
+      "text": "通过 API 连接机器人或频道，指定管理员，并选择广告频道允许的广告显示频率。",
+      "link": "开始 →"
+    },
+    "step2": {
+      "title": "广告发布 48 小时",
+      "text": "帖子在审核通过后保持活跃 48 小时。到期后帖子将被删除。"
+    },
+    "step3": {
+      "title": "每 24 小时 USDT 到达钱包",
+      "text": "我们每 24 小时向您的 AdsGram 账户钱包发送 CPM（每千次展示）收益。"
+    },
+    "image_alt": "USDT 余额"
+  },
+  "trust": {
+    "tag": "关于 AdsGram",
+    "title": "为什么值得信赖？",
+    "subtitle": "我们是 Telegram 现代化和快速广告货币化的领先平台，得到了 TON 和市场领导者的直接支持。",
+    "card1": "由 TON 支持",
+    "card2": "自动化和被动收入",
+    "card3": "严格审核广告商",
+    "card4": "按 CPM（浏览量）以 USDT 支付"
+  },
+  "hero": {
+    "title1": "将您的频道货币化",
+    "title2": "或无需佣金的机器人",
+    "text1": "方便、盈利、快速，",
+    "text2": "没有复杂的条件",
+    "text3": "也没有多余的形式",
+    "button": "出发"
+  },
+  "lang": {
+    "russian": "俄语",
+    "english": "英语",
+    "chinese": "中文"
+  }
+}

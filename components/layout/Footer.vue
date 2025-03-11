@@ -2,10 +2,10 @@
 
 <template>
     <footer class="footer">
-        <div class="container footer__inner">
+        <div class="footer__container">
             <img class="footer__logo" src="@/assets/icons/logo.svg" alt="AdsGram Logo" />
             <span class="footer__copyright">
-                © 2023 AdsGram. All rights reserved.
+                {{ $t("footer.copyright") }}
             </span>
         </div>
     </footer>
@@ -18,11 +18,14 @@
     background-color: $bg-color-2;
     color: $text-color;
 
-    &__inner {
+    &__container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 80px;
+        padding: 0 112px;
+        margin: 0 auto;
+        max-width: 1440px;
     }
 
     &__logo {
@@ -32,5 +35,26 @@
     &__copyright {
         font-size: 16px;
     }
+
+    @media (max-width: 768px) {
+        &__container {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            padding: 16px;
+            height: auto;
+        }
+
+        &__logo {
+            order: -1;
+        }
+
+        &__copyright {
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+
 }
 </style>

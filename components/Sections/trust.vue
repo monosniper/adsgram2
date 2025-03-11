@@ -2,35 +2,31 @@
     <section class="trust" data-aos="fade-in" data-aos-duration="1000">
         <div class="container">
             <span class="trust__tag" data-aos="flip-up" data-aos-delay="100">
-                об AdsGram
+                {{ $t("trust.tag") }}
             </span>
             <h2 class="trust__title" data-aos="fade-right" data-aos-delay="200">
-                Почему нам можно доверять?
+                {{ $t("trust.title") }}
             </h2>
             <p class="trust__subtitle" data-aos="fade-left" data-aos-delay="300">
-                Мы лидирующая платформа по современной и быстрой рекламной монетизации в Telegram
-                с прямой поддержкой TON и лидеров рынка
+                {{ $t("trust.subtitle") }}
             </p>
             <div class="trust__cards">
                 <div class="trust__card trust__card--ton" data-aos="zoom-in-down" data-aos-delay="400">
-                    <p class="trust__text">Поддерживаемся TON</p>
+                    <p class="trust__text">{{ $t("trust.card1") }}</p>
                 </div>
                 <div class="trust__card trust__card--automation" data-aos="flip-left" data-aos-delay="500">
                     <p class="trust__text">
-                        Автоматизация <br />
-                        и пассивный доход
+                        {{ $t("trust.card2") }}
                     </p>
                 </div>
                 <div class="trust__card trust__card--moderation" data-aos="zoom-out-up" data-aos-delay="600">
                     <p class="trust__text">
-                        Тщательно модерируем <br />
-                        рекламодателей
+                        {{ $t("trust.card3") }}
                     </p>
                 </div>
                 <div class="trust__card trust__card--usdt" data-aos="flip-down" data-aos-delay="700">
                     <p class="trust__text">
-                        Выплаты в USDT <br />
-                        за просмотры (CPM)
+                        {{ $t("trust.card4") }}
                     </p>
                 </div>
             </div>
@@ -160,6 +156,44 @@
         text-align: left;
         position: relative;
         z-index: 2;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            padding: 0 16px;
+            text-align: left;
+            margin-bottom: 64px;
+            margin-top: 64px;
+        }
+
+        .trust__title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .trust__subtitle {
+            font-size: 16px;
+        }
+
+        .trust__cards {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: flex-start;
+        }
+
+        .trust__card {
+            width: 100%;
+            height: 320px;
+            padding: 20px;
+            text-align: left;
+            align-items: flex-start;
+        }
+
+        .trust__text {
+            font-size: 20px;
+            text-align: left;
+        }
     }
 }
 </style>

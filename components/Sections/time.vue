@@ -1,14 +1,18 @@
+<script setup lang="ts">
+import { ref } from "vue";
+</script>
+
 <template>
     <section class="time" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
         <div class="container">
             <h2 class="time__title" data-aos="zoom-in" data-aos-delay="100">
-                время пришло
+                {{ $t("time.title") }}
             </h2>
             <p class="time__text" data-aos="fade-right" data-aos-delay="200">
-                начни зарабатывать с AdsGram сегодня
+                {{ $t("time.text") }}
             </p>
             <button class="time__button" data-aos="fade-left" data-aos-delay="300">
-                Перейти в кабинет
+                {{ $t("time.button") }}
             </button>
         </div>
     </section>
@@ -23,6 +27,7 @@
     .container {
         max-width: 1440px;
         margin: 0 auto;
+        padding: 0 16px;
     }
 
     &__title {
@@ -54,6 +59,20 @@
     &__button:hover {
         background: #FFFFFF;
         color: #005bff;
+    }
+
+    @media (max-width: 768px) {
+        & {
+            padding: 60px 0;
+        }
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
     }
 }
 </style>

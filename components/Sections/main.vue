@@ -3,16 +3,16 @@
     <div class="container">
       <div class="hero__content" data-aos="fade-right">
         <h1 class="hero__title" data-aos="fade-right">
-          Монетизируй канал <br />
-          или бот без комиссии
+          <span>{{ $t("hero.title1") }}</span>
+          <span>{{ $t("hero.title2") }}</span>
         </h1>
         <p class="hero__text" data-aos="fade-right" data-aos-delay="100">
-          удобно, выгодно, быстро, <br />
-          без сложных условий <br />
-          и лишних формальностей
+          <span>{{ $t("hero.text1") }}</span>
+          <span>{{ $t("hero.text2") }}</span>
+          <span>{{ $t("hero.text3") }}</span>
         </p>
         <button class="hero__button" data-aos="zoom-in" data-aos-delay="200">
-          Полетели
+          {{ $t("hero.button") }}
         </button>
       </div>
       <div class="hero__images" data-aos="fade-left">
@@ -25,6 +25,12 @@
 
 <style scoped lang="scss">
 @use "@/assets/scss/vars" as *;
+
+.hero__title,
+.hero__text {
+  display: flex;
+  flex-direction: column;
+}
 
 .hero {
   padding: 70px 0 0 0;
@@ -79,7 +85,7 @@
 
   &__images {
     position: relative;
-    max-width: 50%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -101,6 +107,73 @@
       height: 749.92px;
       position: relative;
       z-index: 2;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 0;
+
+    .container {
+      padding: 0 16px;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+
+    .hero__images {
+      order: -1;
+      margin-bottom: 16px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero__image--chat {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 12px;
+      display: block;
+      position: static;
+    }
+
+    .hero__image--phone {
+      display: none;
+    }
+
+    .hero__content {
+      align-items: flex-start;
+      text-align: left;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .hero__title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #181D27;
+      margin-bottom: 12px;
+      white-space: normal;
+      text-align: left;
+    }
+
+    .hero__text {
+      font-size: 16px;
+      color: #535862;
+      line-height: 1.5;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+
+    .hero__button {
+      font-size: 16px;
+      font-weight: 600;
+      background: #005bff;
+      color: #ffffff;
+      padding: 14px 24px;
+      border-radius: 12px;
+      width: 100%;
     }
   }
 }
