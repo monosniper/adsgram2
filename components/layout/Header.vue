@@ -34,15 +34,6 @@ const toggleMobileMenu = () => {
         </div>
     </header>
     <div class="mobile-menu" :class="{ open: isMobileMenuOpen }">
-        <div class="mobile-menu__header">
-            <a href="/">
-                <img class="mobile-menu__logo" src="@/assets/icons/logo.svg" alt="AdsGram Logo" />
-            </a>
-            <div class="mobile-menu__close" @click="toggleMobileMenu">
-                <i v-html="closeIcon"></i>
-            </div>
-        </div>
-
         <nav class="mobile-menu__nav">
             <ul>
                 <li><a href="#trust" @click="toggleMobileMenu">{{ $t("menu.experience") }}</a></li>
@@ -181,7 +172,6 @@ const toggleMobileMenu = () => {
 
 .mobile-menu {
     position: fixed;
-    top: -100vh;
     left: 0;
     width: 100%;
     height: 48vh;
@@ -195,7 +185,7 @@ const toggleMobileMenu = () => {
     z-index: 999;
 
     &.open {
-        top: 0;
+        top: 70px;
     }
 
     &__header {
