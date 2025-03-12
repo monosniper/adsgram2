@@ -127,7 +127,6 @@ const toggleMobileMenu = () => {
 
     &__moderate {
         font-family: "Inter";
-        text-wrap: nowrap;
         width: 171px;
         height: 44px;
         border-radius: 8px;
@@ -196,7 +195,7 @@ const toggleMobileMenu = () => {
     z-index: 999;
 
     &.open {
-        top: 20px;
+        top: 0;
     }
 
     &__header {
