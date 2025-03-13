@@ -7,37 +7,37 @@ const phoneImage = computed(() => `/images/${locale.value}/mobile${locale.value}
 </script>
 
 <template>
-  <section class="native-post" data-aos="fade-in" data-aos-duration="900">
+  <section class="native-post" data-aos="fade-in" data-aos-duration="700">
     <div class="native-post__container">
       <div class="native-post__wrapper">
-        <div class="native-post__image" data-aos="zoom-out" data-aos-delay="150">
+        <div class="native-post__image" data-aos="zoom-out" data-aos-delay="100">
           <!-- Динамическое изображение телефона -->
           <img :src="phoneImage" alt="Телефон с рекламой"/>
         </div>
-        <div class="native-post__content" data-aos="slide-up" data-aos-delay="250">
-                    <span class="native-post__tag" data-aos="flip-down" data-aos-delay="300">
+        <div class="native-post__content" data-aos="slide-up" data-aos-delay="200">
+                    <span class="native-post__tag" data-aos="flip-down" data-aos-delay="250">
                         {{ $t("native_post.tag") }}
                     </span>
-          <h2 class="native-post__title" data-aos="rotate" data-aos-delay="350">
+          <h2 class="native-post__title" data-aos="rotate" data-aos-delay="300">
             {{ $t("native_post.title") }}
           </h2>
-          <p class="native-post__subtitle" data-aos="fade-left" data-aos-delay="400">
+          <p class="native-post__subtitle" data-aos="fade-left" data-aos-delay="350">
             {{ $t("native_post.subtitle") }}
           </p>
           <ul class="native-post__list">
-            <li class="native-post__item" data-aos="flip-up" data-aos-delay="450">
+            <li class="native-post__item" data-aos="flip-up" data-aos-delay="400">
               <img alt="Формат" src="/assets/icons/format.svg"/>
               <span>{{ $t("native_post.format") }}</span>
             </li>
-            <li class="native-post__item" data-aos="flip-up" data-aos-delay="500">
+            <li class="native-post__item" data-aos="flip-up" data-aos-delay="450">
               <img alt="Время" src="/assets/icons/time.svg"/>
               <span>{{ $t("native_post.time") }}</span>
             </li>
-            <li class="native-post__item" data-aos="flip-up" data-aos-delay="600">
+            <li class="native-post__item" data-aos="flip-up" data-aos-delay="500">
               <img alt="Аудитория" src="/assets/icons/audience.svg"/>
               <span>{{ $t("native_post.audience") }}</span>
             </li>
-            <li class="native-post__item" data-aos="flip-up" data-aos-delay="650">
+            <li class="native-post__item" data-aos="flip-up" data-aos-delay="550">
               <img alt="Оплата" src="/assets/icons/brilliand.svg"/>
               <span>{{ $t("native_post.payment") }}</span>
             </li>

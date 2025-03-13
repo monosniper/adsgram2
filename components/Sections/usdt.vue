@@ -9,24 +9,24 @@ const balanceImageDesktop = computed(() => `/images/${locale.value}/balance${loc
 </script>
 
 <template>
-  <section class="steps" data-aos="fade-up" data-aos-offset="100">
+  <section class="steps" data-aos="fade-up" data-aos-offset="50">
     <div class="container">
-      <span class="steps__tag" data-aos="fade-right" data-aos-delay="100">{{ $t("steps.tag") }}</span>
-      <h2 class="steps__title" data-aos="fade-right" data-aos-delay="200">
+      <span class="steps__tag" data-aos="fade-right" data-aos-delay="50">{{ $t("steps.tag") }}</span>
+      <h2 class="steps__title" data-aos="fade-right" data-aos-delay="100">
         {{ $t("steps.title") }}
       </h2>
-      <p class="steps__subtitle" data-aos="fade-right" data-aos-delay="300">
+      <p class="steps__subtitle" data-aos="fade-right" data-aos-delay="150">
         {{ $t("steps.subtitle") }}
       </p>
 
       <div class="steps__wrapper">
-        <div class="steps__content" data-aos="fade-right" data-aos-delay="400">
-          <div class="steps__icons" data-aos="zoom-in" data-aos-delay="500">
+        <div class="steps__content" data-aos="fade-right" data-aos-delay="200">
+          <div class="steps__icons" data-aos="zoom-in" data-aos-delay="250">
             <img v-for="n in 10" :key="n" alt="Иконка" src="/assets/images/icons.svg"/>
           </div>
 
           <div class="steps__list">
-            <div class="steps__item steps__item--active" data-aos="fade-up" data-aos-delay="600">
+            <div class="steps__item steps__item--active" data-aos="fade-up" data-aos-delay="300">
               <h3 class="steps__item-title">{{ $t("steps.step1.title") }}</h3>
               <p class="steps__item-text">{{ $t("steps.step1.text") }}</p>
               <a class="steps__link" href="#">
@@ -35,19 +35,19 @@ const balanceImageDesktop = computed(() => `/images/${locale.value}/balance${loc
               </a>
             </div>
 
-            <div class="steps__item" data-aos="fade-up" data-aos-delay="700">
+            <div class="steps__item" data-aos="fade-up" data-aos-delay="350">
               <h3 class="steps__item-title">{{ $t("steps.step2.title") }}</h3>
               <p class="steps__item-text">{{ $t("steps.step2.text") }}</p>
             </div>
 
-            <div class="steps__item" data-aos="fade-up" data-aos-delay="800">
+            <div class="steps__item" data-aos="fade-up" data-aos-delay="400">
               <h3 class="steps__item-title">{{ $t("steps.step3.title") }}</h3>
               <p class="steps__item-text">{{ $t("steps.step3.text") }}</p>
             </div>
           </div>
         </div>
 
-        <div class="steps__image" data-aos="fade-left" data-aos-delay="900">
+        <div class="steps__image" data-aos="fade-left" data-aos-delay="450">
           <img :src="balanceImageDesktop" :alt="$t('steps.image_alt')" />
         </div>
       </div>
@@ -252,7 +252,6 @@ const balanceImageDesktop = computed(() => `/images/${locale.value}/balance${loc
       font-size: 14px;
       font-weight: 600;
       color: #005bff;
-      text-transform: uppercase;
       display: block;
       margin-bottom: 8px;
     }

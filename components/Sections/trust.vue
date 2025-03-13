@@ -1,13 +1,13 @@
 <template>
-  <section class="trust" data-aos="fade-in" data-aos-duration="600">
+  <section class="trust" data-aos="fade-in" data-aos-duration="400">
     <div class="container">
-            <span class="trust__tag" data-aos="fade-in" data-aos-delay="50">
+            <span class="trust__tag" data-aos="fade-in" data-aos-delay="25">
                 {{ $t("trust.tag") }}
             </span>
-      <h2 class="trust__title" data-aos="fade-right" data-aos-delay="100">
+      <h2 class="trust__title" data-aos="fade-right" data-aos-delay="50">
         {{ $t("trust.title") }}
       </h2>
-      <p class="trust__subtitle" data-aos="fade-left" data-aos-delay="150">
+      <p class="trust__subtitle" data-aos="fade-left" data-aos-delay="75">
         {{ $t("trust.subtitle") }}
       </p>
       <div class="trust__cards">
@@ -33,7 +33,6 @@
     </div>
   </section>
 </template>
-
 
 
 <style lang="scss" scoped>

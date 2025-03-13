@@ -3,19 +3,19 @@ import { ref } from "vue";
 </script>
 
 <template>
-    <section class="time" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-        <div class="container">
-            <h2 class="time__title" data-aos="zoom-in" data-aos-delay="100">
-                {{ $t("time.title") }}
-            </h2>
-            <p class="time__text" data-aos="fade-right" data-aos-delay="200">
-                {{ $t("time.text") }}
-            </p>
-            <button class="time__button" data-aos="fade-left" data-aos-delay="300">
-                {{ $t("time.button") }}
-            </button>
-        </div>
-    </section>
+  <section class="time" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="400">
+    <div class="container">
+      <h2 class="time__title" data-aos="zoom-in" data-aos-delay="25">
+        {{ $t("time.title") }}
+      </h2>
+      <p class="time__text" data-aos="fade-right" data-aos-delay="50">
+        {{ $t("time.text") }}
+      </p>
+      <button class="time__button" data-aos="fade-left" data-aos-delay="75">
+        {{ $t("time.button") }}
+      </button>
+    </div>
+  </section>
 </template>
 
 <style scoped lang="scss">

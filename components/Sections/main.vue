@@ -15,11 +15,11 @@ const heroImageMobile = computed(() => `/images/${locale.value}/card${locale.val
           <span>{{ $t("hero.title1") }}</span>
           <span>{{ $t("hero.title2") }}</span>
         </h1>
-        <p class="hero__text" data-aos="fade-right" data-aos-delay="100">
+        <p class="hero__text" data-aos="fade-right" data-aos-delay="50">
           <span>{{ $t("hero.text1") }}</span> <span>{{ $t("hero.text2") }}</span>
           <span>{{ $t("hero.text3") }}</span>
         </p>
-        <button class="hero__button" data-aos="zoom-in" data-aos-delay="200">
+        <button class="hero__button" data-aos="zoom-in" data-aos-delay="100">
           {{ $t("hero.button") }}
         </button>
       </div>
