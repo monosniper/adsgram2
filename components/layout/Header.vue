@@ -127,6 +127,7 @@ const toggleMobileMenu = () => {
   }
 
   &__moderate {
+    text-wrap: nowrap;
     font-family: "Inter";
     width: 171px;
     height: 44px;
