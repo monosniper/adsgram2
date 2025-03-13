@@ -5,7 +5,7 @@
     "format": "Format"
   },
   "button": {
-    "monetize": "Attract traffic"
+    "monetize": "Monetize"
   },
   "time": {
     "title": "The time has come",
@@ -20,27 +20,27 @@
     "time": "Time: 48 hours",
     "frequency": "Frequency: 1 to 3 times a day",
     "audience": "Audience: all, including Premium",
-    "payment": "Bonuses: Emojis 🫰, text autocorrection"
+    "payment": "Payment: per CPM (views)"
   },
   "footer": {
     "copyright": "© 2025 AdsGram. All rights reserved."
   },
   "steps": {
     "tag": "Connection",
-    "title": "Traffic from major channels in minutes",
+    "title": "3 steps to USDT in your account",
     "subtitle": "We have made the connection and setup as comfortable and fast as possible, and our support team is ready to help with any questions.",
     "step1": {
-      "title": "Create an account and launch your first campaign",
-      "text": "Register on AdsGram and select the campaign type 'ads in channels and bots'",
+      "title": "Add the bot and set the ad frequency",
+      "text": "Connect the bot or channel via API, specify the admin, and choose the allowed ad display frequency in the ad channel.",
       "link": "Get started →"
     },
     "step2": {
       "title": "The ad is published for 48 hours",
-      "text": "After moderation, the post will be placed in the channels registered on our platform within 48 hours"
+      "text": "The post remains active for 48 hours after moderation. After this period, the post is deleted."
     },
     "step3": {
-      "title": "Track success through analytics",
-      "text": "In a separate tab, we provide detailed analytics for each campaign"
+      "title": "Every 24 hours, payment arrives in USDT",
+      "text": "We send funds for views (CPM) to your AdsGram account wallet every 24 hours."
     },
     "image_alt": "Balance in USDT"
   },
@@ -50,12 +50,12 @@
     "subtitle": "We are the leading platform for modern and fast advertising monetization in Telegram, with direct support from TON and market leaders.",
     "card1": "Supported by TON",
     "card2": "Automation and passive income",
-    "card3": "We carefully moderate publishers",
+    "card3": "Thoroughly moderating advertisers",
     "card4": "Payouts in USDT for views (CPM)"
   },
   "hero": {
-    "title1": "Advertising in channels",
-    "title2": "and bots with AdsGram",
+    "title1": "Monetize your channel",
+    "title2": "or bot with no fees",
     "text1": "Convenient, profitable, fast,",
     "text2": "without complex conditions",
     "text3": "and unnecessary formalities",

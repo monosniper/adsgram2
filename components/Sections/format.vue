@@ -24,13 +24,16 @@
                             <img src="/assets/icons/time.svg" alt="Время" />
                             <span>{{ $t("native_post.time") }}</span>
                         </li>
-                        
+                        <li class="native-post__item" data-aos="flip-up" data-aos-delay="550">
+                            <img src="/assets/icons/frequency.svg" alt="Частота" />
+                            <span>{{ $t("native_post.frequency") }}</span>
+                        </li>
                         <li class="native-post__item" data-aos="flip-up" data-aos-delay="600">
                             <img src="/assets/icons/audience.svg" alt="Аудитория" />
                             <span>{{ $t("native_post.audience") }}</span>
                         </li>
                         <li class="native-post__item" data-aos="flip-up" data-aos-delay="650">
-                            <img src="/assets/icons/brilliand.svg" alt="Оплата" />
+                            <img src="/assets/icons/payment.svg" alt="Оплата" />
                             <span>{{ $t("native_post.payment") }}</span>
                         </li>
                     </ul>
