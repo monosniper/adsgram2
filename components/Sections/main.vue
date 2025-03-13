@@ -1,29 +1,38 @@
+<script lang="ts" setup>
+import {computed} from "vue";
+import {useRoute} from "nuxt/app";
+const route = useRoute();
+const locale = computed(() => route.params.locale || "ru");
+const heroImageDesktop = computed(() => `/images/${locale.value}/main${locale.value}.png`);
+const heroImageMobile = computed(() => `/images/${locale.value}/card${locale.value}.png`);
+</script>
+
 <template>
   <section class="hero" data-aos="fade-up">
     <div class="container">
       <div class="hero__content" data-aos="fade-right">
         <h1 class="hero__title" data-aos="fade-right">
-          Реклама в каналах <br />
-          и ботах с AdsGram
+          <span>{{ $t("hero.title1") }}</span>
+          <span>{{ $t("hero.title2") }}</span>
         </h1>
         <p class="hero__text" data-aos="fade-right" data-aos-delay="100">
-          удобно, выгодно, быстро, <br />
-          без сложных условий <br />
-          и лишних формальностей
+          <span>{{ $t("hero.text1") }}</span> <span>{{ $t("hero.text2") }}</span>
+          <span>{{ $t("hero.text3") }}</span>
         </p>
         <button class="hero__button" data-aos="zoom-in" data-aos-delay="200">
-          Полетели
+          {{ $t("hero.button") }}
         </button>
       </div>
+
       <div class="hero__images" data-aos="fade-left">
-        <img src="/assets/images/hero-chat.png" alt="Чат" class="hero__image hero__image--chat" />
-        <img src="/assets/images/hero-phone2.png" alt="Телефон" class="hero__image hero__image--phone" />
+        <img :src="heroImageDesktop" alt="Основное изображение" class="hero__image hero__image--desktop"/>
+        <img :src="heroImageMobile" alt="Мобильное изображение" class="hero__image hero__image--mobile"/>
       </div>
     </div>
   </section>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 @use "@/assets/scss/vars" as *;
 
 .hero {
@@ -42,6 +51,8 @@
   }
 
   &__title {
+    display: flex;
+    flex-direction: column;
     text-wrap: nowrap;
     font-size: 60px;
     font-weight: 600;
@@ -51,6 +62,8 @@
   }
 
   &__text {
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 32px;
@@ -79,28 +92,95 @@
 
   &__images {
     position: relative;
-    max-width: 50%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
   }
 
   &__image {
+    width: 100%;
     height: auto;
+    object-fit: contain;
+  }
 
-    &--chat {
-      width: 620.95px;
-      height: 392px;
-      position: absolute;
-      bottom: 155px;
-      right: 286px;
-      z-index: 1;
+  &__image--desktop {
+    max-width: 950px;
+    margin-left: -80px;
+    margin-top: 20px;
+  }
+
+  &__image--mobile {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+
+    padding: 0;
+    .hero__content {
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+    .container {
+      padding: 0 16px;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
     }
 
-    &--phone {
-      width: 371.14px;
-      height: 749.92px;
-      position: relative;
-      z-index: 2;
+    .hero__images {
+      order: -1;
+      margin-bottom: 16px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero__image--desktop {
+      display: none;
+    }
+
+    .hero__image--mobile {
+      display: block;
+      max-width: 100%;
+      margin-top: 10px;
+    }
+
+    .hero__content {
+      align-items: flex-start;
+      text-align: left;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .hero__title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #181D27;
+      margin-bottom: 12px;
+      white-space: normal;
+      display: block;
+    }
+    .hero__title span {
+      display: inline;
+      word-wrap: break-word;
+    }
+    .hero__text {
+      font-size: 18px;
+      color: #535862;
+      line-height: 1.5;
+      margin-bottom: 24px;
+      display: block;
+    }
+
+    .hero__button {
+      font-size: 16px;
+      font-weight: 600;
+      background: #005bff;
+      color: #ffffff;
+      padding: 14px 24px;
+      border-radius: 12px;
+      width: 100%;
     }
   }
 }

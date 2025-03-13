@@ -1,1 +1,69 @@
-{}
+{
+  "menu": {
+    "experience": "Experience",
+    "how_it_works": "How it works",
+    "format": "Format"
+  },
+  "button": {
+    "monetize": "Attract traffic"
+  },
+  "time": {
+    "title": "The time has come",
+    "text": "Start earning with AdsGram today",
+    "button": "Go to dashboard"
+  },
+  "native_post": {
+    "tag": "Format",
+    "title": "Native post in the channel (bot)",
+    "subtitle": "The ad looks like a native post in the channel",
+    "format": "Format: text + img/gif",
+    "time": "Time: 48 hours",
+    "frequency": "Frequency: 1 to 3 times a day",
+    "audience": "Audience: all, including Premium",
+    "payment": "Bonuses: emoji\uD83E\uDEF0, text autocorrection"
+  },
+  "footer": {
+    "copyright": "© 2025 AdsGram. All rights reserved"
+  },
+  "steps": {
+    "tag": "Connection",
+    "title": "Traffic from the largest channels in minutes",
+    "subtitle": "We have made the connection and setup as comfortable and fast as possible, and our support team is ready to help with any questions",
+    "step1": {
+      "title": "Create an account and launch your first campaign",
+      "text": "Sign up on AdsGram and select the campaign type 'ads in channels and bots'",
+      "link": "Get started →"
+    },
+    "step2": {
+      "title": "The ad is published for 48 hours",
+      "text": "After moderation, the post will be published in the channels registered on our platform within 48 hours"
+    },
+    "step3": {
+      "title": "Track success through analytics",
+      "text": "In a separate tab, we provide detailed analytics for each campaign"
+    },
+    "image_alt": "Balance in USDT"
+  },
+  "trust": {
+    "tag": "About AdsGram",
+    "title": "Why can you trust us?",
+    "subtitle": "We are the leading platform for modern and fast advertising monetization in Telegram, with direct support from TON and market leaders",
+    "card1": "Supported by TON",
+    "card2": "Automation and passive income",
+    "card3": "We thoroughly moderate publishers",
+    "card4": "Payouts in USDT for views (CPM)"
+  },
+  "hero": {
+    "title1": "Advertising in channels",
+    "title2": "and bots with AdsGram",
+    "text1": "Convenient, profitable, fast,",
+    "text2": "without complex conditions",
+    "text3": "and unnecessary formalities",
+    "button": "Let's go"
+  },
+  "lang": {
+    "russian": "Russian",
+    "english": "English",
+    "chinese": "Chinese"
+  }
+}
