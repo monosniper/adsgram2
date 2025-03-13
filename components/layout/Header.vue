@@ -124,6 +124,7 @@ const toggleMobileMenu = () => {
         background-color: $btn-color-1;
         color: #fff;
         border: none;
+        text-wrap: nowrap;
         font-weight: 600;
         font-size: 16px;
         display: flex;
