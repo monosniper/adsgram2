@@ -245,7 +245,7 @@ const balanceImageDesktop = computed(() => `/images/${locale.value}/balance${loc
 
     .container {
       padding: 10px 16px;
-      padding-bottom: -120px;
+      /*padding-bottom: -120px;*/
     }
 
     &__tag {
