@@ -1,33 +1,27 @@
 <template>
-  <section class="trust" data-aos="fade-in" data-aos-duration="400">
+  <section class="trust" data-aos="fade-up" data-aos-duration="400">
     <div class="container">
-            <span class="trust__tag" data-aos="fade-in" data-aos-delay="25">
-                {{ $t("trust.tag") }}
-            </span>
-      <h2 class="trust__title" data-aos="fade-right" data-aos-delay="50">
+      <span class="trust__tag" data-aos="fade-up" data-aos-delay="25">
+        {{ $t("trust.tag") }}
+      </span>
+      <h2 class="trust__title" data-aos="fade-up" data-aos-delay="50">
         {{ $t("trust.title") }}
       </h2>
-      <p class="trust__subtitle" data-aos="fade-left" data-aos-delay="75">
+      <p class="trust__subtitle" data-aos="fade-up" data-aos-delay="75">
         {{ $t("trust.subtitle") }}
       </p>
       <div class="trust__cards">
-        <div class="trust__card trust__card--ton">
+        <div class="trust__card trust__card--ton" data-aos="fade-up" data-aos-delay="100">
           <p class="trust__text">{{ $t("trust.card1") }}</p>
         </div>
-        <div class="trust__card trust__card--automation">
-          <p class="trust__text">
-            {{ $t("trust.card2") }}
-          </p>
+        <div class="trust__card trust__card--automation" data-aos="fade-up" data-aos-delay="125">
+          <p class="trust__text">{{ $t("trust.card2") }}</p>
         </div>
-        <div class="trust__card trust__card--moderation">
-          <p class="trust__text">
-            {{ $t("trust.card3") }}
-          </p>
+        <div class="trust__card trust__card--moderation" data-aos="fade-up" data-aos-delay="150">
+          <p class="trust__text">{{ $t("trust.card3") }}</p>
         </div>
-        <div class="trust__card trust__card--usdt">
-          <p class="trust__text">
-            {{ $t("trust.card4") }}
-          </p>
+        <div class="trust__card trust__card--usdt" data-aos="fade-up" data-aos-delay="175">
+          <p class="trust__text">{{ $t("trust.card4") }}</p>
         </div>
       </div>
     </div>

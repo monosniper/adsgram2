@@ -154,7 +154,7 @@ const balanceImageDesktop = computed(() => `/images/${locale.value}/balance${loc
     }
 
     &:hover::before {
-      background-color: #8a2be2;
+      background-color: #005bff;
     }
     &:nth-child(1):hover::before {
       background-color: #005bff;
@@ -321,7 +321,7 @@ const balanceImageDesktop = computed(() => `/images/${locale.value}/balance${loc
       }
 
       &:hover::before {
-        background-color: #8a2be2; // Фиолетовый по умолчанию
+        background-color: #005bff; // Фиолетовый по умолчанию
       }
 
       &:nth-child(1):hover::before {
