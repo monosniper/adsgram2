@@ -110,7 +110,6 @@ const phoneImage = computed(() => `/images/${locale.value}/mobile${locale.value}
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 33px;
     background: #FFF;
     border-radius: 16px;
     padding: 24px;
@@ -123,7 +122,8 @@ const phoneImage = computed(() => `/images/${locale.value}/mobile${locale.value}
     font-size: 16px;
     color: #535862;
     font-weight: 500;
-    padding-bottom: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #F4F4F6;
 
   }
