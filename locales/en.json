@@ -32,7 +32,7 @@
     "step1": {
       "title": "Add the bot and set the ad frequency",
       "text": "Connect the bot or channel via API, specify the admin, and choose the allowed ad display frequency in the ad channel",
-      "link": "Get started →"
+      "link": "Get started"
     },
     "step2": {
       "title": "The ad is published for 48 hours",
