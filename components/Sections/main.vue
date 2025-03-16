@@ -5,6 +5,9 @@ const route = useRoute();
 const locale = computed(() => route.params.locale || "ru");
 const heroImageDesktop = computed(() => `/images/${locale.value}/main${locale.value}.png`);
 const heroImageMobile = computed(() => `/images/${locale.value}/card${locale.value}.png`);
+const redirectToTrafficLogin = () => {
+  window.location.href = "https://traffic.adsgram.ai/login";
+};
 </script>
 
 <template>
@@ -19,7 +22,7 @@ const heroImageMobile = computed(() => `/images/${locale.value}/card${locale.val
           <span>{{ $t("hero.text1") }}</span> <span>{{ $t("hero.text2") }}</span>
           <span>{{ $t("hero.text3") }}</span>
         </p>
-        <button class="hero__button" data-aos="zoom-in" data-aos-delay="100">
+        <button class="hero__button" data-aos="zoom-in" data-aos-delay="100" @click="redirectToTrafficLogin">
           {{ $t("hero.button") }}
         </button>
       </div>

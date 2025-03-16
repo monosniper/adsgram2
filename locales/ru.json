@@ -13,15 +13,18 @@
     "button": "Перейти в кабинет"
   },
   "native_post": {
-
     "tag": "формат",
     "title": "Нативный пост в канале (боте)",
     "subtitle": "Объявление выглядит как нативный пост в канале",
-    "format": "формат: текст + img/gif",
-    "time": "время: 48 часов",
-    "frequency": "Частота выпуска: от 1 до 3-х раз в день",
-    "audience": "aудитория: все, включая Premium",
-    "payment": "бонусы: эмоджи\uD83E\uDEF0, автокоррекция текста"
+    "format": "текст + img/gif",
+    "time": "48 часов",
+    "frequency": "от 1 до 3-х раз в день",
+    "audience": "все, включая Premium",
+    "payment": "эмоджи\uD83E\uDEF0, автокоррекция текста",
+    "payment_label": "Оплата",
+    "audience_label": "Аудитория",
+    "time_label": "Время",
+    "format_label": "Формат"
   },
   "footer": {
     "copyright": "© 2025 AdsGram. Все права защищены"

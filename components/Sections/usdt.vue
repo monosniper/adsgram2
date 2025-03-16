@@ -6,6 +6,11 @@ import arrowblueIcon from "@/assets/icons/arrowblue.svg?raw";
 const route = useRoute();
 const locale = computed(() => route.params.locale || "ru");
 const balanceImageDesktop = computed(() => `/images/${locale.value}/balance${locale.value}.png`);
+
+const redirectToTrafficLogin = () => {
+  window.location.href = "https://traffic.adsgram.ai/login";
+};
+
 </script>
 
 <template>
@@ -29,7 +34,7 @@ const balanceImageDesktop = computed(() => `/images/${locale.value}/balance${loc
             <div class="steps__item steps__item--active" data-aos="fade-up" data-aos-delay="300">
               <h3 class="steps__item-title">{{ $t("steps.step1.title") }}</h3>
               <p class="steps__item-text">{{ $t("steps.step1.text") }}</p>
-              <a class="steps__link" href="#">
+              <a class="steps__link" href="https://traffic.adsgram.ai/login" @click.prevent="redirectToTrafficLogin">
                 {{ $t("steps.step1.link") }}
                 <i class="steps__icon" v-html="arrowblueIcon"></i>
               </a>

@@ -27,19 +27,19 @@ const phoneImage = computed(() => `/images/${locale.value}/mobile${locale.value}
           <ul class="native-post__list">
             <li class="native-post__item" data-aos="flip-up" data-aos-delay="400">
               <img alt="Формат" src="/assets/icons/format.svg"/>
-              <span>{{ $t("native_post.format") }}</span>
+              <strong>{{ $t("native_post.format_label") }}:</strong><span>{{ $t("native_post.format") }}</span>
             </li>
             <li class="native-post__item" data-aos="flip-up" data-aos-delay="450">
               <img alt="Время" src="/assets/icons/time.svg"/>
-              <span>{{ $t("native_post.time") }}</span>
+              <strong>{{ $t("native_post.time_label") }}:</strong><span>{{ $t("native_post.time") }}</span>
             </li>
             <li class="native-post__item" data-aos="flip-up" data-aos-delay="500">
               <img alt="Аудитория" src="/assets/icons/audience.svg"/>
-              <span>{{ $t("native_post.audience") }}</span>
+              <strong>{{ $t("native_post.audience_label") }}:</strong><span>{{ $t("native_post.audience") }}</span>
             </li>
             <li class="native-post__item" data-aos="flip-up" data-aos-delay="550">
               <img alt="Оплата" src="/assets/icons/brilliand.svg"/>
-              <span>{{ $t("native_post.payment") }}</span>
+              <strong>{{ $t("native_post.payment_label") }}:</strong><span>{{ $t("native_post.payment") }}</span>
             </li>
           </ul>
         </div>

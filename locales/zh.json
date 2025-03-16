@@ -14,13 +14,17 @@
   },
   "native_post": {
     "tag": "格式",
-    "title": "频道中的原生帖子（机器人）",
+    "title": "频道（机器人）中的原生广告",
     "subtitle": "广告看起来像频道中的原生帖子",
-    "format": "格式: 文本 + img/gif",
-    "time": "时间: 48 小时",
-    "frequency": "发布频率: 每天 1 到 3 次",
-    "audience": "受众: 所有用户，包括 Premium",
-    "payment": "奖励: 表情符号\uD83E\uDEF0, 文字自动更正"
+    "format": "文本 + 图片/gif",
+    "time": "48 小时",
+    "frequency": "每天 1 至 3 次",
+    "audience": "所有人，包括 Premium 用户",
+    "payment": "表情符号\uD83E\uDEF0，文本自动校正",
+    "payment_label": "支付",
+    "audience_label": "受众",
+    "time_label": "时长",
+    "format_label": "格式"
   },
   "footer": {
     "copyright": "© 2025 AdsGram. 版权所有."

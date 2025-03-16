@@ -13,14 +13,18 @@
     "button": "Go to dashboard"
   },
   "native_post": {
-    "tag": "format",
-    "title": "Native post in the channel (bot)",
+    "tag": "Format",
+    "title": "Native Post in the Channel (Bot)",
     "subtitle": "The ad looks like a native post in the channel",
-    "format": "format: text + img/gif",
-    "time": "time: 48 hours",
-    "frequency": "frequency: 1 to 3 times a day",
-    "audience": "audience: all, including Premium",
-    "payment": "payment: per CPM (views)"
+    "format": "Text + img/gif",
+    "time": "48 hours",
+    "frequency": "1 to 3 times per day",
+    "audience": "Everyone, including Premium",
+    "payment": "Emoji\uD83E\uDEF0, text autocorrection",
+    "payment_label": "Payment",
+    "audience_label": "Audience",
+    "time_label": "Time",
+    "format_label": "Format"
   },
   "footer": {
     "copyright": "© 2025 AdsGram. All rights reserved"

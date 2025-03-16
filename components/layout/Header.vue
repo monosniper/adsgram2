@@ -7,6 +7,9 @@ const isMobileMenuOpen = ref(false);
 const toggleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
 };
+const redirectToTrafficLogin = () => {
+  window.location.href = "https://traffic.adsgram.ai/login";
+};
 </script>
 
 <template>
@@ -25,7 +28,7 @@ const toggleMobileMenu = () => {
 
       <div class="header__actions">
         <SharedLanguageSwitcher class="lang-switcher__desktop"/>
-        <button class="header__moderate">
+        <button class="header__moderate" @click="redirectToTrafficLogin">
           {{ $t("button.monetize") }}
         </button>
         <div class="header__burger" @click="toggleMobileMenu">
@@ -58,7 +61,7 @@ const toggleMobileMenu = () => {
     </div>
 
     <div class="mobile-menu__actions">
-      <button class="mobile-menu__moderate">
+      <button class="mobile-menu__moderate" @click="redirectToTrafficLogin">
         {{ $t("button.monetize") }}
       </button>
     </div>

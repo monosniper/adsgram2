@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import { ref } from "vue";
+
+const redirectToTrafficLogin = () => {
+  window.location.href = "https://traffic.adsgram.ai/login";
+};
 </script>
 
 <template>
@@ -11,7 +15,7 @@ import { ref } from "vue";
       <p class="time__text" data-aos="fade-right" data-aos-delay="50">
         {{ $t("time.text") }}
       </p>
-      <button class="time__button" data-aos="fade-left" data-aos-delay="75">
+      <button class="time__button" data-aos="fade-left" data-aos-delay="75" @click="redirectToTrafficLogin">
         {{ $t("time.button") }}
       </button>
     </div>
