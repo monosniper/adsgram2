@@ -19,9 +19,11 @@ const heroImageMobile = computed(() => `/images/${locale.value}/card${locale.val
           <span>{{ $t("hero.text1") }}</span> <span>{{ $t("hero.text2") }}</span>
           <span>{{ $t("hero.text3") }}</span>
         </p>
-        <button class="hero__button" data-aos="zoom-in" data-aos-delay="200">
-          {{ $t("hero.button") }}
-        </button>
+	      <a href="https://traffic.adsgram.ai/login" target="_blank">
+		      <button class="hero__button" data-aos="zoom-in" data-aos-delay="200">
+			      {{ $t("hero.button") }}
+		      </button>
+	      </a>
       </div>
 
       <div class="hero__images" data-aos="fade-left">

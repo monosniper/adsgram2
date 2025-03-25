@@ -11,9 +11,11 @@ import { ref } from "vue";
             <p class="time__text" data-aos="fade-right" data-aos-delay="200">
                 {{ $t("time.text") }}
             </p>
-            <button class="time__button" data-aos="fade-left" data-aos-delay="300">
-                {{ $t("time.button") }}
-            </button>
+	        <a href="https://traffic.adsgram.ai/login" target="_blank">
+		        <button class="time__button" data-aos="fade-left" data-aos-delay="300">
+			        {{ $t("time.button") }}
+		        </button>
+	        </a>
         </div>
     </section>
 </template>

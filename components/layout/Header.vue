@@ -24,9 +24,11 @@ const toggleMobileMenu = () => {
 
             <div class="header__actions">
                 <SharedLanguageSwitcher class="lang-switcher__desktop" />
-                <button class="header__moderate">
-                    {{ $t("button.monetize") }}
-                </button>
+	            <a href="https://traffic.adsgram.ai/login" target="_blank">
+		            <button class="header__moderate">
+			            {{ $t("button.monetize") }}
+		            </button>
+	            </a>
                 <div class="header__burger" @click="toggleMobileMenu">
                     <i v-html="isMobileMenuOpen ? closeIcon : burgerIcon"></i>
                 </div>
@@ -57,9 +59,11 @@ const toggleMobileMenu = () => {
         </div>
 
         <div class="mobile-menu__actions">
-            <button class="mobile-menu__moderate">
-                {{ $t("button.monetize") }}
-            </button>
+	        <a href="https://traffic.adsgram.ai/login" target="_blank">
+		        <button class="mobile-menu__moderate">
+			        {{ $t("button.monetize") }}
+		        </button>
+	        </a>
         </div>
     </div>
 

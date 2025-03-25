@@ -29,7 +29,7 @@ const balanceImageDesktop = computed(() => `/images/${locale.value}/balance${loc
             <div class="steps__item steps__item--active" data-aos="fade-up" data-aos-delay="600">
               <h3 class="steps__item-title">{{ $t("steps.step1.title") }}</h3>
               <p class="steps__item-text">{{ $t("steps.step1.text") }}</p>
-              <a class="steps__link" href="#">
+              <a class="steps__link" href="https://traffic.adsgram.ai/login" target="_blank">
                 {{ $t("steps.step1.link") }}
                 <i class="steps__icon" v-html="arrowblueIcon"></i>
               </a>
