@@ -17,7 +17,7 @@
     "title": "Native post in the channel (bot)",
     "subtitle": "The ad looks like a native post in the channel",
     "format": "Format: text + img/gif",
-    "time": "Time: 48 hours",
+    "time": "Time: 24 hours",
     "frequency": "Frequency: 1 to 3 times a day",
     "audience": "Audience: all, including Premium",
     "payment": "Bonuses: emoji\uD83E\uDEF0, text autocorrection"
@@ -35,8 +35,8 @@
       "link": "Get started →"
     },
     "step2": {
-      "title": "The ad is published for 48 hours",
-      "text": "After moderation, the post will be published in the channels registered on our platform within 48 hours"
+      "title": "The ad is published for 24 hours",
+      "text": "After moderation, the post will be published in the channels registered on our platform within 24 hours"
     },
     "step3": {
       "title": "Track success through analytics",
