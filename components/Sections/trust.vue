@@ -14,21 +14,21 @@
         <div class="trust__card trust__card--ton">
           <p class="trust__text">{{ $t("trust.card1") }}</p>
         </div>
-        <div class="trust__card trust__card--automation">
-          <p class="trust__text">
-            {{ $t("trust.card2") }}
-          </p>
-        </div>
+<!--        <div class="trust__card trust__card&#45;&#45;automation">-->
+<!--          <p class="trust__text">-->
+<!--            {{ $t("trust.card2") }}-->
+<!--          </p>-->
+<!--        </div>-->
         <div class="trust__card trust__card--moderation">
           <p class="trust__text">
             {{ $t("trust.card3") }}
           </p>
         </div>
-        <div class="trust__card trust__card--usdt">
-          <p class="trust__text">
-            {{ $t("trust.card4") }}
-          </p>
-        </div>
+<!--        <div class="trust__card trust__card&#45;&#45;usdt">-->
+<!--          <p class="trust__text">-->
+<!--            {{ $t("trust.card4") }}-->
+<!--          </p>-->
+<!--        </div>-->
       </div>
     </div>
   </section>
